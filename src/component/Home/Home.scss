@@ -1,0 +1,27 @@
+.Banner{
+    height: 400px;
+    background-color: rgb(16,16,16);
+}
+.Row{
+    padding: 1rem;
+    background-color: rgb(16,16,16);
+    >h2{
+        font-weight: 400;
+        margin: 0.3rem; 
+    }
+    > div{
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x: auto;
+        
+    }
+}
+.Card{
+    width: 200px;
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+    &:hover{
+        transition: translateY(-10px);
+    }
+}
