@@ -1,5 +1,5 @@
-# Basic NetFlix Clone
-Basic Netflic Clone using Reacts..
+# Basic Netflix Clone
+Basic Netflix Clone using Reacts..
 
 ## Using Technologies
 
