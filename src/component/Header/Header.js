@@ -1,11 +1,9 @@
 import React from 'react';
 import logo from './../../logo.png';
-import './Header.scss'
 import { Link } from 'react-router-dom';
 import{ImSearch} from "react-icons/im";
 
 const Header=()=> {
-  console.log(logo);
   return (
     <nav className='Header'>
        <img src={logo} alt="logo" />
